@@ -68,8 +68,6 @@ class Cell:
         di = [-1, 0, 1, 0]
         dj = [0, 1, 0, -1]
 
-        self.neighbours = []
-
         for k in range(4):
             other_row, other_col = self.row + di[k], self.col + dj[k]
 
